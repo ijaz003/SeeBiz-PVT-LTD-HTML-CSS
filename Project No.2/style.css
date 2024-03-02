@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    display: border-box;
+}
+
+.container .cont1{
+    width: 100%;
+    background-image: url("img1.jpg");
+    height: 692px;
+    background-size: contain;
+}
+#a{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.container .cont1 .text{
+    padding-top: 286px;
+    padding-left: 338px;
+}
+.container .cont1 .text p{
+    font-size: 11px;
+}
+main{
+    width: 100%;
+    
+}
+main .cont2{
+margin: 50px 0px;
+}
+main .cont2 .child1{
+    width: 44%;
+    margin-bottom: 50px;
+    padding-left: 470px;
+}
+main .cont2 .child2{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding-top: 25px;
+}
+main p{
+    font-size: small;
+}
+
+footer .cont3{
+    width: 100%;
+}
+footer .cont3 .child1{
+    padding-left: 192px;
+    padding-bottom: 35px;
+}
+
+footer .cont3 .child2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 100px;
+}
+.c1,.c2,.c3{
+    width: 22%;
+}
+footer .cont3 .child2 .c1 .bg{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    block-size: contain;
+    height: 198px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer .cont3 .child2 .c2 .bg{
+    background-image: url("img3.jpg");
+    height: 300px;
+    block-size: contain;
+    height: 198px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer .cont3 .child2 .c3 .bg{
+    background-image: url("img4.jpg");
+    height: 300px;
+    block-size: contain;
+    height: 198px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b{
+    margin: 20px;
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.txt{
+    background-color: orange;
+    color: white;
+    padding: 20px 5px;
+}
+span{
+    color: black;
+}
